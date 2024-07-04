@@ -1,0 +1,15 @@
+<div class="header-container">
+  @if(authService.currentUser$ig()==null){
+  <div class="logged-out">
+    <a routerLink="/login">Login</a>
+    <a routerLink="/register">Register</a>
+  </div>
+  } @if(authService.currentUser$ig()){
+  <div class="logged-out">
+    <span  >{{ authService.currentUser$ig()?.username }}</span>
+    <span   (click)="logout()">Logout</span>
+  </div>
+  }
+</div>
+
+<router-outlet></router-outlet>

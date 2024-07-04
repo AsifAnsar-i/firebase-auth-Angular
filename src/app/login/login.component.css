@@ -1,0 +1,58 @@
+/* register.component.css */
+
+/* Container and Title Styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  /* Error Message Styling */
+  .errormsg {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Form Styling */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Form Body Styling */
+  .body {
+    margin-bottom: 15px;
+  }
+  
+  /* Input Field Styling */
+  .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Button Styling */
+  .btncss {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btncss:hover {
+    background-color: #0056b3;
+  }
+  

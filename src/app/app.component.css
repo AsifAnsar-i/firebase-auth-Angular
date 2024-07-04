@@ -1,0 +1,42 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  width: 100%;
+}
+
+.logged-out a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  justify-content: flex-end;
+  background-color: #0056b3;
+}
+.logged-out span {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  justify-content: flex-end;
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+.logged-out a:hover {
+  background-color: #0056b3;
+  justify-content: space-between;
+}
+.logged-out span:hover {
+  background-color: #0056b3;
+  justify-content: space-between;
+}
+
+

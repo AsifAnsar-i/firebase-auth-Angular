@@ -1,0 +1,104 @@
+/* home.component.css */
+
+/* Reset some default browser styles */
+body, h1, p, ul, li, a, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+.header {
+  background-color: #007bff;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #f0f0f0;
+}
+
+/* Main content styling */
+.main-content {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('../../../public/background.jpg') no-repeat center center/cover;
+  height: 57vh;
+  overflow: hidden;
+  color: #fff;
+}
+
+.main-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
